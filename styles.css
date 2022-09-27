@@ -1,8 +1,3 @@
-
-h1, h2 {
-    color: purple;
-}
-
-body {
-    background-color: lightgray;
-}
+a:link {
+    text-decoration: none;
+  }
