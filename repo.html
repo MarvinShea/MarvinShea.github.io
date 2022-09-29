@@ -2,19 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Shea's Projects</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header -->
+  <header class="main-header">
     <nav class="navbar bg-light">
         <form class="container-fluid justify-content-start">
-          <button class="btn btn-outline-success me-2" type="button"><a href="index.html">My Bio</a></button>
-          <button class="btn btn-sm btn-outline-secondary" type="button">My Projects</button>
+            <button class="btn btn-outline-success me-2" type="button"><a href="index.html">HOME</a></button>
+            <button class="btn btn-sm btn-outline-secondary" type="button"><a href="">MY PROJECTS</a></button>
         </form>
       </nav>
+  </header>
 
+    <!-- My Projects -->
+    <div>
+      <h1>MY PROJECTS</h1>
+      <p class="project">Have a look at some of my projects.</p>
+    </div>
+
+    <div class="grid-container">
+      <div class="project-name"><b>Pac-Men</b></div>
+      <div class="project-name"><b>My Eyes</b></div>
+      <div class="project-name"><b>Bus Tracker</b></div>  
+      <div class="project-info">This project uses a combination of JavaScript and HTML to create pacmen that moves across the browser at random speeds and random positions.</div>
+      <div class="project-info">This project uses a combination of JavaScript, CSS and HTML to create a pair of eyes that tracks the movement of the cursor.</div>
+      <div class="project-info">This project uses a combination of JavaScript, CSS and HTML along with mapbox to create a marker that tracks bus stops from MIT to Harvard.</div>
+      <div class="project-img"><a href="https://github.com/MarvinShea/pacMen" target="_blank"><img src="/images/pacman.jpg" alt="pacman img"></a></div>
+      <div class="project-img"><a href="https://github.com/MarvinShea/myEyes" target="_blank"><img src="/images/eyes.jpg" alt="eyes img"></a></div>
+      <div class="project-img"><a href="https://github.com/MarvinShea/busTracker" target="_blank"><img src="/images/buses.jpg" alt="bus img"></a></div>
+    </div><br>
+
+    <!-- Repository -->
+  <div class="repo-link">
+    <span>My GitHub Repositories and Code</span><br>
+    <span> >>><a href="https://github.com/MarvinShea" target="_blank">HERE</a><<< </span>
+  </div>
+
+    <!-- FOOTER-->
+<footer class="footer">
+  <p>Copyright &copy; 2022 All Rights Reserved</p>
+</footer>
 
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
