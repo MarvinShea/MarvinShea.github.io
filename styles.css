@@ -22,11 +22,13 @@ a:link {
 .navbar {
   background: url("images/dtower.jpg") no-repeat center right/cover;
   height: 10vh;
+  width: auto;
   margin: 0px 0px;
 }
 
 .navbar .btn {
   border: 2PX solid red;
+  background: black;
 }
 
 body {
