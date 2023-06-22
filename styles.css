@@ -11,86 +11,100 @@ a:active {
 }
 
 a:link {
-    color: green;
+  color: green;
 
-  }
+}
 
 .main-header a {
-    color: white;
+  color: white;
 }
 
 .navbar {
-    background: url("images/dtower.jpg") no-repeat center right/cover;
-    height: 10vh;
-    margin: 0px 0px;
+  background: url("images/dtower.jpg") no-repeat center right/cover;
+  height: 10vh;
+  margin: 0px 0px;
 }
 
 .navbar .btn {
-    border: 2PX solid red;
+  border: 2PX solid red;
 }
 
 body {
-    background-color: rgb(237, 195, 220);
+  background-color: rgb(237, 195, 220);
 }
 
 .grid-container {
-    display: grid;
-    background-color: aliceblue;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+  width: 600px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0px;
+}
 
-.grid-container > div {
-    text-align: center;
-    border: 1px solid gray;
-  }
+.grid-container>div {
+  text-align: center;
+  border: 1px solid gray;
+}
 
 .grid-container .project-name {
-    padding: 0;
-  }
+  padding: 0;
+}
 
 .grid-container .project-info {
-    padding: 0;
-  }
+  padding: 0;
+}
 
-.grid-container .project-img img{
-    height: 200px;
-    width: 200px;
-    object-fit: cover;
-  }
+.grid-container .project-img img {
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in;
+}
 
-h1, h2, h3, h4, h5, h6 {
-    text-align: center;
-    color: purple;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  }
+.grid-container .project-img img:hover {
+  transform: scale(1.4) rotate(5deg);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0.5);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  color: purple;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 .biopic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 10%;
 }
 
 .project {
-    text-align: center;
-    text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
 }
 
 p {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 span {
-    padding-left: 10px;
+  padding-left: 10px;
 }
 
 .video-container iframe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .repo-link {
-    text-align: center;
+  text-align: center;
 }
